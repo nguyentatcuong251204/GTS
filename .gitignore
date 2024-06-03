@@ -1,0 +1,21 @@
+# Bỏ qua tất cả các tệp object và executable
+*.o
+*.exe
+
+# Bỏ qua tất cả các tệp tạm thời của hệ điều hành
+*.log
+*.tmp
+*.swp
+
+# Bỏ qua tất cả các thư mục build
+build/
+bin/
+obj/
+
+# Bỏ qua tệp cấu hình IDE
+.vscode/
+.idea/
+*.sln
+
+# Bỏ qua các tệp nhạy cảm
+*.env
